@@ -1,0 +1,26 @@
+{
+  "name": "npm-pkg-test",
+  "version": "1.0.0",
+  "description": "Test npm",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:types": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "rollup": "^4.1.4",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "mapbox-gl": "^3.0.0",
+    "rollup-plugin-static-files": "^0.3.0",
+    "threebox-plugin": "^2.2.7"
+  }
+}
